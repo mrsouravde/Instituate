@@ -1,0 +1,178 @@
+*{
+	  margin: 0px;
+	  padding: 0px;
+ }
+header{ 
+    		border-style: solid;
+    		background-color: darkcyan;
+      }
+.c1{
+    		height: 80px;
+            max-width:100%;
+            text-align: center;
+   }
+.c2{
+    		display:inline-block;
+    		margin: 20px;
+    		text-decoration: none;
+            font-size: 20px; 
+            border-style: solid; 
+            border-radius: 20px;
+            padding: 5px;
+            background-color:skyblue;
+            color: white; 
+   }
+a:hover{
+    	    background-color: darkcyan;
+       }
+.c3{
+			height:800px;
+			max-width: 100%;
+			border-style:solid;
+			background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("image/student.jpg");
+			background-repeat:no-repeat;
+			background-size: cover;
+   }
+.c4{
+			height: 500px;
+			max-width: 700px;
+			border-style: solid;
+		    margin-left: auto;
+		    margin-right: auto;
+		    margin-top: 130px;
+		    color:white;
+	}
+.c5{
+			height: 250px;
+			max-width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 23px;
+	}
+.c6{
+			margin-top: -215px;
+			margin-left:300px;
+	}
+.c7{
+			height: 500px;
+			max-width: 100%;
+            border:2px solid black;
+            background-image:url("Image/student3.jpg");
+            background-size: cover;
+	}
+.c8{
+			height: 400px;
+			max-width: 500px;
+            margin-left: 70px;
+            margin-top: 50px;
+	}
+.c9{
+			height:300px;
+			max-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+	}
+.firm{
+			height: 30px;
+		    width: 345px;
+	 }
+.c11{
+		height: 800px;
+		width: 100%;
+		border-style: solid;
+		background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/book.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+.c12{
+		height: 390px;
+		width: 420px;
+		border:solid white;
+		display: inline-grid;
+	}
+.c13{
+		font-size: 25px;
+		text-align: center;
+	}
+.c14{
+		height: 250px;
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+.c15{
+		height: 800px;
+		width: 100%;
+		border-style: solid;
+		background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/book.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+    }
+.c16{
+			height: 400px;
+			max-width: 640px;
+            display: inline-block;
+            color: white;
+            padding: 5px;
+	}
+.c17{
+			color: white;border-color: white;font-size: 23px;
+	}
+.c18
+    {
+			height: 400px;
+			max-width: 1200px;
+			margin: 50px;
+			text-align: justify;
+	}
+footer{
+			height: 250px;
+			max-width: 100%;
+			background-color: black;
+      }
+.c19{
+             color: white;
+             height: 250px;
+             max-width:1000px;
+             margin-left: auto;
+             margin-right: auto;
+	}
+@media(max-width:750px)
+         {
+			.c2{
+				margin-top:100px;
+				margin-left: 2px;
+				margin-right: 2px;
+			}
+            header{
+				background-color: darkcyan;
+				height: 160px;
+            }
+            .c4{
+                height: 750px;
+			}
+			.c6{
+				margin: 0px;
+			}
+			.c3{
+				height: 900px;
+			}
+			.firm{
+				width: 200px;
+			}
+			.c9{
+				width: 200px;
+			}
+		}
+@media(max-width: 860px)
+	    {
+		.c11{
+			height: 2380px;
+		   }
+	    }
+@media(min-width: 860px)and (max-width: 1290px)	
+	    {
+		.c11{
+			height: 1200px;
+		   }
+	    }
